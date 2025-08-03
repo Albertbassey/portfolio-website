@@ -4,18 +4,15 @@
 
 The purpose of this document is to outline the requirements for a personal portfolio website that showcases your skills, background, and achievements. The website will be developed using vanilla HTML5 and CSS, emphasizing accessibility, readability, and search engine optimization (SEO). The portfolio will serve as a professional tool to communicate your skills to potential employers and collaborators.
 
+
 ## Objectives
 
 1. **Showcase Skills and Achievements**: Provide a platform to highlight your programming skills, projects, and educational background.
 2. **Enhance Accessibility and SEO**: Ensure that the website is accessible to all users and optimized for search engines.
 3. **Encourage Contact**: Implement an easy-to-use contact form for potential employers or collaborators.
 
-## Target Audience
-
-- Hiring managers
-- Recruiters
-- Potential collaborators
-- Industry peers
+## Link to my Portfolio Website
+[Albert's portfolio-website](https://albertbassey.github.io/portfolio-website/)
 
 ## Functional Requirements
 
