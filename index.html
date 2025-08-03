@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albert Bassey | Frontend Developer Portfolio</title>
+    <meta name="description" content="Portfolio of Albert Bassey, a frontend developer specializing in HTML5, CSS3, JavaScript, React, and modern web technologies. View projects, skills, education, and contact information.">
+    <meta name="keywords" content="Albert Bassey, frontend developer, portfolio, HTML5, CSS3, JavaScript, React, web development, ALX, University of Uyo">
+    <meta name="author" content="Albert Bassey">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header role="banner">
+        <div class="container">
+            <h1>Albert Bassey</h1>
+            <p class="subtitle">Frontend Developer</p>
+            <nav role="navigation" aria-label="Main Navigation">
+                <ul>
+                    <li><a href="#about" title="About Albert Bassey">About</a></li>
+                    <li><a href="#skills" title="Albert's Programming Skills">Skills</a></li>
+                    <li><a href="#education" title="Albert's Education">Education</a></li>
+                    <li><a href="#interests" title="Albert's Professional Interests">Interests</a></li>
+                    <li><a href="#projects" title="Albert's Projects">Projects</a></li>
+                    <li><a href="#contact" title="Contact Albert">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main role="main">
+        <section id="about" aria-labelledby="about-heading">
+            <div class="container">
+                <h2 id="about-heading">About Me</h2>
+                <p>
+                    Hello! I'm Albert, a passionate frontend developer dedicated to building innovative and accessible web solutions. With experience in modern web technologies, I create scalable applications that deliver exceptional user experiences.
+                </p>
+                <p>
+                    My programming journey began during my one-year software engineering program at ALX, where I discovered the power of code to solve real-world problems. I am driven by the opportunity to learn, create, and make a positive impact through technology.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills" aria-labelledby="skills-heading">
+            <div class="container">
+                <h2 id="skills-heading">Programming Skills</h2>
+                <h3>Frontend Technologies</h3>
+                <ul>
+                    <li><strong>JavaScript (ES6+):</strong> Intermediate proficiency</li>
+                    <li><strong>TypeScript:</strong> Strong typing and modern development</li>
+                    <li><strong>React:</strong> Component-based UI development</li>
+                    <li><strong>HTML5 &amp; CSS3:</strong> Semantic markup and modern styling</li>
+                </ul>
+                <h3>Tools &amp; Platforms</h3>
+                <ul>
+                    <li><strong>Git &amp; GitHub:</strong> Version control and collaboration</li>
+                    <li><strong>Trello:</strong> Project management</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="education" aria-labelledby="education-heading">
+            <div class="container">
+                <h2 id="education-heading">Education</h2>
+                <article>
+                    <h3>Bachelor of Science in Physics</h3>
+                    <p><strong>University of Uyo</strong> &mdash; Graduated June 2018</p>
+                    <h3>Software Engineering (Jan 2024 - Feb 2025)</h3>
+                    <p><strong>ALXSWE</strong> &mdash; ALX Software Engineering</p>
+                    <p>
+                        Focused on software engineering principles, data structures, algorithms, and modern web development technologies. Actively participated in coding clubs and hackathons.
+                    </p>
+                    <p>
+                        <strong>Relevant Coursework:</strong> Web Development, Database Systems, Software Engineering.
+                    </p>
+                    <p>
+                        <a href="Albert_Bassey_Cv.pdf" download title="Download Albert Bassey's CV as PDF" aria-label="Download Albert Bassey's CV as PDF">
+                            Download My CV (PDF)
+                        </a>
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section id="interests" aria-labelledby="interests-heading">
+            <div class="container">
+                <h2 id="interests-heading">Professional Interests</h2>
+                <p>
+                    My goal is to join a forward-thinking team where I can contribute to meaningful projects and continue to grow as a developer. I am especially interested in roles that emphasize user experience, accessibility, and innovative problem-solving.
+                </p>
+            </div>
+        </section>
+
+        <section id="projects" aria-labelledby="projects-heading">
+            <div class="container">
+                <h2 id="projects-heading">Featured Projects</h2>
+                <article>
+                    <h3>Portfolio-Blog-App</h3>
+                    <p>
+                        A simple blog web app built with JavaScript, HTML, and CSS. Features real-time collaboration, drag-and-drop functionality, and comprehensive project analytics.
+                    </p>
+                    <p><strong>Technologies:</strong> JavaScript, HTML, CSS</p>
+                    <p>
+                        <a href="https://github.com/Albertbassey/porfolio-blog-app" target="_blank" rel="noopener" title="View Portfolio Blog App on GitHub" aria-label="View Portfolio Blog App on GitHub">
+                            View on GitHub
+                        </a>
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-heading">
+            <div class="container">
+                <h2 id="contact-heading">Get In Touch</h2>
+                <p>
+                    I'm always open to discussing new opportunities, collaborating on interesting projects, or connecting with fellow developers. Feel free to reach out!
+                </p>
+                <form action="#" method="post" aria-label="Contact Form">
+                    <fieldset>
+                        <legend>Send me a message</legend>
+                        <label for="name">Your Name <span aria-label="required">*</span></label>
+                        <input type="text" id="name" name="name" required aria-describedby="name-help" placeholder="Enter your full name">
+                        <small id="name-help">Please provide your full name</small>
+                        <label for="email">Email Address <span aria-label="required">*</span></label>
+                        <input type="email" id="email" name="email" required aria-describedby="email-help" placeholder="your.email@example.com">
+                        <small id="email-help">I'll use this to respond to your message</small>
+                        <label for="subject">Subject <span aria-label="required">*</span></label>
+                        <input type="text" id="subject" name="subject" required placeholder="What's this about?">
+                        <label for="message">Message <span aria-label="required">*</span></label>
+                        <textarea id="message" name="message" rows="6" required aria-describedby="message-help" placeholder="Tell me about your project or opportunity..."></textarea>
+                        <small id="message-help">Please provide details about how we might work together</small>
+                        <button type="submit" aria-label="Send contact message">Send Message</button>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <aside role="complementary" aria-labelledby="quick-links-heading">
+        <div class="container">
+            <h2 id="quick-links-heading">Quick Links</h2>
+            <nav aria-label="Social Media and Professional Links">
+                <ul>
+                    <li>
+                        <a href="https://github.com/Albertbassey" target="_blank" rel="noopener" title="Albert's GitHub Profile" aria-label="Albert's GitHub Profile">
+                            GitHub Profile
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/aniediong-etim-b6224221b/" target="_blank" rel="noopener" title="Albert's LinkedIn Profile" aria-label="Albert's LinkedIn Profile">
+                            LinkedIn Profile
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:aniediongetim@gmail.com" title="Email Albert Bassey" aria-label="Email Albert Bassey">
+                            Email Address
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <footer role="contentinfo">
+        <div class="container">
+            <p>
+                &copy; 2025 Albert Bassey. All rights reserved.<br>
+                Built with semantic HTML5 and CSS.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
